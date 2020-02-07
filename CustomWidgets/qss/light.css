@@ -15,17 +15,17 @@ QWidget[LightStyleProperty='DefaultTitleBar'] QPushButton#closeButton
 {
     background: transparent;
     border:none;
-    image: url(../../qss/images/close_normal.svg);
+    image: url(:/qss/images/close_normal.svg);
 }
 
 QWidget[LightStyleProperty='DefaultTitleBar'] QPushButton:hover#closeButton
 {
-    image: url(../../qss/images/close_hover.svg);
+    image: url(:/qss/images/close_hover.svg);
 }
 
 QWidget[LightStyleProperty='DefaultTitleBar'] QPushButton:pressed#closeButton
 {
-    image: url(../../qss/images/close_pressed.svg);
+    image: url(:/qss/images/close_pressed.svg);
 }
 
 /*最小化按钮*/
@@ -33,17 +33,17 @@ QWidget[LightStyleProperty='DefaultTitleBar'] QPushButton#minButton
 {
     background: transparent;
     border: none;
-    image: url(../../qss/images/minimize_normal.svg);
+    image: url(:/qss/images/minimize_normal.svg);
 }
 
 QWidget[LightStyleProperty='DefaultTitleBar'] QPushButton:hover#minButton
 {
-    image: url(../../qss/images/minimize_hover.svg);
+    image: url(:/qss/images/minimize_hover.svg);
 }
 
 QWidget[LightStyleProperty='DefaultTitleBar'] QPushButton:pressed#minButton
 {
-    image: url(../../qss/images/minimize_pressed.svg);
+    image: url(:/qss/images/minimize_pressed.svg);
 }
 
 /*最大化按钮*/
@@ -51,34 +51,34 @@ QWidget[LightStyleProperty='DefaultTitleBar'] QPushButton#maxButton[LightStylePr
 {
     background: transparent;
     border: none;
-    image: url(../../qss/images/maximized_normal.svg);
+    image: url(:/qss/images/maximized_normal.svg);
 }
 
 QWidget[LightStyleProperty='DefaultTitleBar'] QPushButton:hover#maxButton[LightStyleProperty='maxNormal']
 {
-    image: url(../../qss/images/maximized_hover.svg);
+    image: url(:/qss/images/maximized_hover.svg);
 }
 
 QWidget[LightStyleProperty='DefaultTitleBar'] QPushButton:pressed#maxButton[LightStyleProperty='maxNormal']
 {
-    image: url(../../qss/images/maximized_pressed.svg);
+    image: url(:/qss/images/maximized_pressed.svg);
 }
 
 QWidget[LightStyleProperty='DefaultTitleBar'] QPushButton#maxButton[LightStyleProperty='maxed']
 {
     background: transparent;
     border: none;
-    image: url(../../qss/images/maximize_normal.svg);
+    image: url(:/qss/images/maximize_normal.svg);
 }
 
 QWidget[LightStyleProperty='DefaultTitleBar'] QPushButton:hover#maxButton[LightStyleProperty='maxed']
 {
-    image: url(../../qss/images/maximize_hover.svg);
+    image: url(:/qss/images/maximize_hover.svg);
 }
 
 QWidget[LightStyleProperty='DefaultTitleBar'] QPushButton:pressed#maxButton[LightStyleProperty='maxed']
 {
-    image: url(../../qss/images/maximize_pressed.svg);
+    image: url(:/qss/images/maximize_pressed.svg);
 }
 
 /*透明Widget*/
@@ -243,7 +243,7 @@ QComboBox::drop-down
 
 QComboBox::down-arrow
 {
-    image: url(../../qss/images/comboBox_bottom.png);
+    image: url(:/qss/images/comboBox_bottom.png);
     margin-right: 7px;
     width: 16px;
     height: 16px;
@@ -414,19 +414,19 @@ QCheckBox::indicator,QGroupBox::indicator,QTreeWidget::indicator,QListWidget::in
 }
 
 QCheckBox::indicator:unchecked,QGroupBox::indicator:unchecked,QTreeWidget::indicator:unchecked,QListWidget::indicator:unchecked{
-    image:url(../../qss/images/checkbox_unchecked.png);
+    image:url(:/qss/images/checkbox_unchecked.png);
 }
 
 QCheckBox::indicator:unchecked:disabled,QGroupBox::indicator:unchecked:disabled,QTreeWidget::indicator:unchecked:disabled,QListWidget::indicator:disabled{
-    image:url(../../qss/images/checkbox_unchecked_disable.png);
+    image:url(:/qss/images/checkbox_unchecked_disable.png);
 }
 
 QCheckBox::indicator:checked,QGroupBox::indicator:checked,QTreeWidget::indicator:checked,QListWidget::indicator:checked{
-    image:url(../../qss/images/checkbox_checked.png);
+    image:url(:/qss/images/checkbox_checked.png);
 }
 
 QCheckBox::indicator:checked:disabled,QGroupBox::indicator:checked:disabled,QTreeWidget::indicator:checked:disabled,QListWidget::indicator:checked:disabled{
-    image:url(../../qss/images/checkbox_checked_disable.png);
+    image:url(:/qss/images/checkbox_checked_disable.png);
 }
 
 QCheckBox::indicator:indeterminate,QGroupBox::indicator:indeterminate,QTreeWidget::indicator:indeterminate,QListWidget::indicator:indeterminate{
@@ -434,7 +434,7 @@ QCheckBox::indicator:indeterminate,QGroupBox::indicator:indeterminate,QTreeWidge
 }
 
 QCheckBox::indicator:indeterminate:disabled,QGroupBox::indicator:indeterminate:disabled,QTreeWidget::indicator:indeterminate:disabled,QListWidget::indicator:indeterminate:disabled{
-    image:url(../../qss/images/checkbox_parcial_disable.png);
+    image:url(:/qss/images/checkbox_parcial_disable.png);
 }
 
 /*QRadioButton*/
@@ -444,19 +444,19 @@ QRadioButton::indicator{
 }
 
 QRadioButton::indicator::unchecked{
-    image:url(../../qss/images/radiobutton_unchecked.png);
+    image:url(:/qss/images/radiobutton_unchecked.png);
 }
 
 QRadioButton::indicator::unchecked:disabled{
-    image:url(../../qss/images/radiobutton_unchecked_disable.png);
+    image:url(:/qss/images/radiobutton_unchecked_disable.png);
 }
 
 QRadioButton::indicator::checked{
-    image:url(../../qss/images/radiobutton_checked.png);
+    image:url(:/qss/images/radiobutton_checked.png);
 }
 
 QRadioButton::indicator::checked:disabled{
-    image:url(../../qss/images/radiobutton_checked_disable.png);
+    image:url(:/qss/images/radiobutton_checked_disable.png);
 }
 
 /*TableView、QListView、QTreeView*/
@@ -599,7 +599,7 @@ QDoubleSpinBox::up-button,QSpinBox::up-button
 
 QTimeEdit::down-button,QDateEdit::down-button,QDateTimeEdit::down-button,QDoubleSpinBox::down-button,QSpinBox::down-button
 {
-    image: url(../../qss/images/add_bottom.png);
+    image: url(:/qss/images/add_bottom.png);
     width: 10px;
     height: 10px;
     margin: 1px 2px 2px 0px;

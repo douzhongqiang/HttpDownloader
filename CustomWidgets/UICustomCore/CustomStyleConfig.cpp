@@ -31,7 +31,7 @@ CustomStyleConfig* CustomStyleConfig::getInstance(void)
 void CustomStyleConfig::init(void)
 {
     m_sCurrentPropertyName = "LightStyleProperty";
-    QString styleStringPath = qApp->applicationDirPath() + "/../../qss/light.css";
+    QString styleStringPath = ":/qss/light.css";
 
 
     QFile nFile(styleStringPath);
