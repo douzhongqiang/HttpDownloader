@@ -2,13 +2,13 @@
 HttpDownloader 是一个简单的Http下载工具，方便所有的Qt爱好者学习和使用。
 预览效果如下：
 
-![预览效果](./MDImages/httpDoawnLoader_pic.png)
+![预览效果](https://www.douzhq.cn/wp-content/uploads/2020/02/httpDoawnLoader_pic.png)
 
 作者：douzhq </br>
 个人博客主页：[不会飞的纸飞机](http://www.douzhq.cn) </br>
 CSDN博客主页：https://blog.csdn.net/douzhq </br>
 微信公众号: 不会飞的纸飞机 ，不时有技术文章分享 </br>
-![不会飞的纸飞机](./MDImages/wechart.jpg)
+![不会飞的纸飞机](https://www.douzhq.cn/wp-content/uploads/2020/02/微信公众号.jpg)
 
 
 # 目录说明
