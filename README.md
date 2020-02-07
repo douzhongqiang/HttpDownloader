@@ -2,13 +2,13 @@
 HttpDownloader 是一个简单的Http下载工具，方便所有的Qt爱好者学习和使用。
 预览效果如下：
 
-![预览效果](http://www.douzhq.cn/wp-content/uploads/2020/02/httpDoawnLoader_pic.png)
+![预览效果](./MDImages/httpDoawnLoader_pic.png)
 
-作者：douzhq
-个人博客主页：[不会飞的纸飞机](http://www.douzhq.cn)
-CSDN博客主页：https://blog.csdn.net/douzhq
-微信公众号: 不会飞的纸飞机 ，不时有技术文章分享
-![不会飞的纸飞机](http://www.douzhq.cn/wp-content/uploads/2020/02/微信公众号.jpg)
+作者：douzhq </br>
+个人博客主页：[不会飞的纸飞机](http://www.douzhq.cn) </br>
+CSDN博客主页：https://blog.csdn.net/douzhq </br>
+微信公众号: 不会飞的纸飞机 ，不时有技术文章分享 </br>
+![不会飞的纸飞机](./MDImages/wechart.jpg)
 
 
 # 目录说明
@@ -20,15 +20,28 @@ CSDN博客主页：https://blog.csdn.net/douzhq
 - UIDownloader 主界面类
 - UIConfigDialog 配置界面类
 
-
+</br>
 # 测试链接
 
-音频文件
-https://www.douzhq.cn/wp-content/uploads/2020/02/丫蛋蛋-大田後生仔.mp3
-https://www.douzhq.cn/wp-content/uploads/2020/02/宝石Gem-野狼disco.mp3
+音频文件</br>
+https://www.douzhq.cn/wp-content/uploads/2020/02/丫蛋蛋-大田後生仔.mp3</br>
+https://www.douzhq.cn/wp-content/uploads/2020/02/宝石Gem-野狼disco.mp3</br>
+</br>
+图片</br>
+https://www.douzhq.cn/wp-content/uploads/2020/01/memory_pool_headImage.jpg</br>
+https://www.douzhq.cn/wp-content/uploads/2020/02/thread_create.jpg</br>
+https://www.douzhq.cn/wp-content/uploads/2020/02/downLoadTestPix-scaled.jpg</br>
 
-图片
-https://www.douzhq.cn/wp-content/uploads/2020/01/memory_pool_headImage.jpg
-https://www.douzhq.cn/wp-content/uploads/2020/02/thread_create.jpg
-https://www.douzhq.cn/wp-content/uploads/2020/02/downLoadTestPix-scaled.jpg
+</br>
+# 说明</br>
 
+我是用的开发环境是 Qt5.13，QtCreator，编译器VS2015 64位</br>
+如果您要下载的链接时Https的，则需要在HttpDowner 目录下bin添加如下文件</br>
+</br>
+如果编译器时VS则添加文件</br>
+libcrypto-1_1-x64.dll</br>
+libssl-1_1-x64.dll</br>
+</br>
+如果编译器时mingw则需要</br>
+libeay32.dll</br>
+ssleay32.dll

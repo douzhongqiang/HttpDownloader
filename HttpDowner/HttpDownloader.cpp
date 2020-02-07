@@ -14,11 +14,11 @@ HttpDownLoader::HttpDownLoader(QObject* parent)
             this, &HttpDownLoader::onReplyFinished);
 
     // 设置代理
-    QNetworkProxy proxy;
-    proxy.setType(QNetworkProxy::HttpProxy);
-    proxy.setHostName("127.0.0.1");
-    proxy.setPort(8888);
-    m_pNetworkManager->setProxy(proxy);
+//    QNetworkProxy proxy;
+//    proxy.setType(QNetworkProxy::HttpProxy);
+//    proxy.setHostName("127.0.0.1");
+//    proxy.setPort(8888);
+//    m_pNetworkManager->setProxy(proxy);
 }
 
 HttpDownLoader::~HttpDownLoader()
